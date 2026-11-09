@@ -1,0 +1,12 @@
+seed: 42
+learning_rate: 0.0005
+batch_size: 8
+epochs: 3
+max_seq_length: 128
+base_model: EleutherAI/pythia-70m
+train_records: 1500
+library_versions:
+  torch: "2.4.1"
+  transformers: "4.44.2"
+  pyyaml: "6.0.2"
+  boto3: "1.35.36"

@@ -1,0 +1,8 @@
+out/
+data/train.jsonl
+*.safetensors
+*.bin
+__pycache__/
+.venv/
+*.pyc
+.env
